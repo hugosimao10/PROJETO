@@ -18,6 +18,7 @@ $app = new Illuminate\Foundation\Application(
 
 //app
 //appmota
+//apphugo
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
