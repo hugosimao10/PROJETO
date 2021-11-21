@@ -17,6 +17,7 @@ $app = new Illuminate\Foundation\Application(
 
 
 //app
+//appmota
 /*
 |--------------------------------------------------------------------------
 | Bind Important Interfaces
