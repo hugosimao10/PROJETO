@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -11,8 +12,15 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+ */
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/listaEstado', function () {
+
+    $estado = DB::table('estadoservico')->get();
+
+    return view('listaestados', ['estados' => $estado]);
 });
