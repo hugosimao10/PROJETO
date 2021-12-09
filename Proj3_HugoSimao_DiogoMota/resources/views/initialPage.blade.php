@@ -40,7 +40,7 @@
     <header class="masthead">
         <div class="container">
             <div class="masthead-heading">Bem vindo à nossa empresa</div>
-            <div class="masthead-subheading">Aqui pode encontrar serviços sobre arranjos técnicos</div>
+            <div class="masthead-subheading">Aqui pode solicitar serviços para arranjos eletrónicos ou manuais</div>
             <a class="btn btn-light btn-xl text-uppercase" href="#">Entrar</a>
         </div>
     </header>
