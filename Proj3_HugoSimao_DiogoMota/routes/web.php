@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('initialPage');
 });
 
 Route::get('/listaEstado', function () {
@@ -24,3 +24,5 @@ Route::get('/listaEstado', function () {
 
     return view('listaestados', ['estados' => $estado]);
 });
+
+Route::get('/createService','ServiceController@createService');
