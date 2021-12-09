@@ -25,4 +25,4 @@ Route::get('/listaEstado', function () {
     return view('listaestados', ['estados' => $estado]);
 });
 
-Route::get('/createService','ServiceController@createService');
+Route::get('/createService','CreateServiceController@createService');

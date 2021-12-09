@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
-class ServiceController extends Controller
+class CreateServiceController extends Controller
 {
     // $results = DB::select('select * from users where id = ?', [1]);
 
