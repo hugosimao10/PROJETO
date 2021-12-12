@@ -1,34 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Arranja Tudo</title>
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-
-    <link href="css/initialPage.css" rel="stylesheet" />
-</head>
-
+@include('partials/head')
 <body id="page-top">
-    <!-- Navigation-->
+    <!-- NavBar-->
     @include('partials/navBar')
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
             <div class="masthead-heading">Bem vindo à nossa empresa</div>
             <div class="masthead-subheading">Aqui pode solicitar serviços para arranjos eletrónicos ou manuais</div>
-            <a class="btn btn-light btn-xl text-uppercase" href="#">Entrar</a>
         </div>
     </header>
+    <!-- Login \ Sign Up-->
+    <section class="page-section bg-light" id="loginRegisto">
+        <div class="container">
+        <div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+				</div>
+			</div>
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repeat Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input id="pass" type="text" class="input">
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1">Already Member?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        </div>
+    </section>
     <!-- Services-->
-    <section class="page-section" id="serviços">
+    <section class="page-section bg-light" id="serviços">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Serviços</h2>
@@ -222,14 +264,7 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <p class="text-center text-uppercase">Hugo Simão, 20752 | Diogo Mota, 20778</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    @include('partials/footer')
 </body>
 
 </html>

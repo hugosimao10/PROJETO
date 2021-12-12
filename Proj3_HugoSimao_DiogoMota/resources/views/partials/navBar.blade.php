@@ -12,8 +12,7 @@
                     <li class="nav-item"><a class="nav-link" href="#serviços">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="#quem_somos">Quem somos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contactos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/registo">Registo</a></li>
+                    <li class="nav-item"><a class="nav-link" id="botaoEntrar" href="#loginRegisto">Entrar</a></li>
                 </ul>
             </div>
         </div>

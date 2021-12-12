@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InitialPageController;
+use App\Http\Controllers\ServiceController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', 'InitialPageController@index');
+Route::get('/', [InitialPageController::class, 'initalPageView']);
 
-Route::get('/registo', 'RegisterController@listEstado');
-
-Route::get('/createService','ServiceController@createService');
+Route::get('/createService',[ServiceController::class, 'createService']);
 
 
