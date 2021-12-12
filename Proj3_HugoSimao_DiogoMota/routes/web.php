@@ -14,15 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('initialPage');
-});
+Route::get('/', 'InitialPageController@index');
 
-Route::get('/listaEstado', function () {
+Route::get('/registo', 'RegisterController@listEstado');
 
-    $estado = DB::table('estadoservico')->get();
+Route::get('/createService','ServiceController@createService');
 
-    return view('listaestados', ['estados' => $estado]);
-});
 
-Route::get('/createService','CreateServiceController@createService');
