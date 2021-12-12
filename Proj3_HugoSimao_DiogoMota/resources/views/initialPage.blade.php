@@ -1,7 +1,7 @@
 @include('partials/head')
 <body id="page-top">
     <!-- NavBar-->
-    @include('partials/navBar')
+    @include('partials/initialPage/navBar')
     <!-- Header-->
     @include('partials/initialPage/header')
     <!-- Login \ Sign Up-->
