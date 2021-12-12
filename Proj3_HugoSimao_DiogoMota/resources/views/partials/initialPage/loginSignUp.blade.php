@@ -1,5 +1,4 @@
 <section class="page-section bg-light" id="loginRegisto">
-    <div class="container">
         <div class="login-wrap">
             <div class="login-html">
                 <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label>
@@ -15,7 +14,7 @@
                             <input id="pass" type="password" class="input" data-type="password">
                         </div>
                         <div class="group">
-                            <input type="submit" class="button" value="Sign In">
+                            <input type="submit" class="button" value="Entrar">
                         </div>
                         <div class="hr"></div>
                         <div class="foot-lnk">
@@ -52,11 +51,10 @@
                             <input id="pass" type="text" class="input">
                         </div>
                         <div class="group">
-                            <input type="submit" class="button" value="Sign Up">
+                            <input type="submit" class="button" value="Registar">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>

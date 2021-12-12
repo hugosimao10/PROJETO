@@ -1,46 +1,15 @@
-
 @include('partials/head')
 <body id="page-top">
     <!-- NavBar-->
     @include('partials/navBar')
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-heading">Bem vindo à nossa empresa</div>
-            <div class="masthead-subheading">Aqui pode solicitar serviços para arranjos eletrónicos ou manuais</div>
-        </div>
-    </header>
+    <!-- Header-->
+    @include('partials/initialPage/header')
     <!-- Login \ Sign Up-->
-    @include('partials/loginSignUp')
+    @include('partials/initialPage/loginSignUp')
     <!-- Services-->
-    <section class="page-section bg-light" id="serviços">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Serviços</h2>
-                <h3 class="section-subheading text-muted">Estes são os serviços disponibilizados pela nossa empresa</h3>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Arranjos de eletrónicos</h4>
-                    <p class="text-muted">Os nossos técnicos </p>
-                </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Arranjos manuais</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('partials/initialPage/services')
     <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="quem_somos">
+    <section class="page-section bg-white" id="quem_somos">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Portfolio</h2>
