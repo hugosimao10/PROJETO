@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v8.6.4',
-        'version' => '8.6.4.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '267bd65f985fcb28f203777235db6f46a4d25d0b',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -137,6 +137,15 @@
             'install_path' => __DIR__ . '/../fruitcake/laravel-cors',
             'aliases' => array(),
             'reference' => 'a8ccedc7ca95189ead0e407c43b530dc17791d6a',
+            'dev_requirement' => false,
+        ),
+        'genealabs/laravel-maps' => array(
+            'pretty_version' => '0.8.0',
+            'version' => '0.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../genealabs/laravel-maps',
+            'aliases' => array(),
+            'reference' => 'e56c810d387a45eccda0fa6c9edcbc66deb87e30',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
@@ -386,12 +395,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v8.6.4',
-            'version' => '8.6.4.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '267bd65f985fcb28f203777235db6f46a4d25d0b',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -733,8 +742,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0',
-                1 => '1.0.0 || 2.0.0 || 3.0.0',
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+                1 => '1.0|2.0',
             ),
         ),
         'psr/simple-cache' => array(
