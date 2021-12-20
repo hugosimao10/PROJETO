@@ -11727,6 +11727,8 @@ header.masthead .masthead-heading {
   background-color: white;
   border-radius: 20px;
   padding-top:10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 section#contact {
