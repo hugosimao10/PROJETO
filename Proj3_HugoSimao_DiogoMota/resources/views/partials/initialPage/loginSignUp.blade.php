@@ -1,5 +1,5 @@
 <section class="page-section bg-light" id="loginRegisto">
-<h2 class="text-uppercase text-center">Login / Registar</h2></br>
+<h2 class="text-uppercase text-center">Área de Login</h2></br>
         <div class="login-wrap">
             <div class="login-html">
                 <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label>
