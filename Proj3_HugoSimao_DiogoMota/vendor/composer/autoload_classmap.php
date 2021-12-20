@@ -931,6 +931,7 @@ return array(
     'GeneaLabs\\LaravelMaps\\Facades\\Map' => $vendorDir . '/genealabs/laravel-maps/src/Facades/Map.php',
     'GeneaLabs\\LaravelMaps\\Map' => $vendorDir . '/genealabs/laravel-maps/src/Map.php',
     'GeneaLabs\\LaravelMaps\\Providers\\Service' => $vendorDir . '/genealabs/laravel-maps/src/Providers/Service.php',
+    'GoNoWare\\Maps\\MapsServiceProvider' => $vendorDir . '/gonoware/laravel-maps/src/MapsServiceProvider.php',
     'GrahamCampbell\\ResultType\\Error' => $vendorDir . '/graham-campbell/result-type/src/Error.php',
     'GrahamCampbell\\ResultType\\Result' => $vendorDir . '/graham-campbell/result-type/src/Result.php',
     'GrahamCampbell\\ResultType\\Success' => $vendorDir . '/graham-campbell/result-type/src/Success.php',

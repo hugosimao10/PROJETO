@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '267bd65f985fcb28f203777235db6f46a4d25d0b',
+        'reference' => 'bcd4ead6f86ba36c63d5fffdab9413fa023e47c1',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -146,6 +146,15 @@
             'install_path' => __DIR__ . '/../genealabs/laravel-maps',
             'aliases' => array(),
             'reference' => 'e56c810d387a45eccda0fa6c9edcbc66deb87e30',
+            'dev_requirement' => false,
+        ),
+        'gonoware/laravel-maps' => array(
+            'pretty_version' => 'v1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gonoware/laravel-maps',
+            'aliases' => array(),
+            'reference' => '303476aa5a3833b59566bdba31d3a318512eb87e',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(
@@ -400,7 +409,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '267bd65f985fcb28f203777235db6f46a4d25d0b',
+            'reference' => 'bcd4ead6f86ba36c63d5fffdab9413fa023e47c1',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(

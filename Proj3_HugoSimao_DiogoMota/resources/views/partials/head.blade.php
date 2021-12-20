@@ -16,4 +16,5 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
     <link href="css/initialPage.css" rel="stylesheet" />
+    @mapstyles
 </head>

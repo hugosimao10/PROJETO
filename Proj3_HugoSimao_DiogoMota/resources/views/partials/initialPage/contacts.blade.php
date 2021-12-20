@@ -24,10 +24,21 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="form-group form-group-textarea mb-md-0">
-                        <!-- Message input-->
-                        <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                    <div class="form-group mb-md-0">
+                        @map([
+                        'lat' => 41.6937606931,
+                        'lng' =>  -8.8466334343,
+                        'zoom' => 13,
+                        'markers' => [
+                        [
+                        'title' => 'ESTG - IPVC',
+                        'lat' => 41.6937606931,
+                        'lng' =>  -8.8466334343,
+                        'popup' => '<h5>ESTG - IPVC</h5>',
+                        ],
+                        ],
+                        ])
+
                     </div>
                 </div>
             </div>

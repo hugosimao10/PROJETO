@@ -138,6 +138,7 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'GrahamCampbell\\ResultType\\' => 26,
+            'GoNoWare\\Maps\\' => 14,
             'GeneaLabs\\LaravelMaps\\' => 22,
         ),
         'F' => 
@@ -426,6 +427,10 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         'GrahamCampbell\\ResultType\\' => 
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
+        ),
+        'GoNoWare\\Maps\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/gonoware/laravel-maps/src',
         ),
         'GeneaLabs\\LaravelMaps\\' => 
         array (
@@ -1441,6 +1446,7 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         'GeneaLabs\\LaravelMaps\\Facades\\Map' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Facades/Map.php',
         'GeneaLabs\\LaravelMaps\\Map' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Map.php',
         'GeneaLabs\\LaravelMaps\\Providers\\Service' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Providers/Service.php',
+        'GoNoWare\\Maps\\MapsServiceProvider' => __DIR__ . '/..' . '/gonoware/laravel-maps/src/MapsServiceProvider.php',
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
         'GrahamCampbell\\ResultType\\Result' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Result.php',
         'GrahamCampbell\\ResultType\\Success' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Success.php',
