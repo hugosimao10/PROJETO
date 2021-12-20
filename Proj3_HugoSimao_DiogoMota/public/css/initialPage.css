@@ -11723,6 +11723,12 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.backgContact{
+  background-color: white;
+  border-radius: 20px;
+  padding-top:10px;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/bg-contact.jpg");
