@@ -18,6 +18,5 @@ use App\Http\Controllers\ServiceController;
 
 Route::get('/', [InitialPageController::class, 'initalPageView']);
 
-Route::get('/createService',[ServiceController::class, 'createService']);
 
 
