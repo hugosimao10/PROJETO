@@ -34,7 +34,7 @@
                         'title' => 'ESTG - IPVC',
                         'lat' => 41.6937606931,
                         'lng' =>  -8.8466334343,
-                        'popup' => '<h5>ESTG - IPVC</h5>',
+                        'popup' => '<h5>Sede da empresa</h5><p>ESTG - IPVC</p>',
                         ],
                         ],
                         ])
