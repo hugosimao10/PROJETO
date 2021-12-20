@@ -11,7 +11,7 @@
                         <p><b>Morada:</b> Avenida do Atlântico, n.º 644 - Viana do Castelo</p>
                     </div>
                     <div class="form-group">
-                        <p><b>Código postal:</b> 4900-348 Viana do Castelo</p>
+                        <p><b>Código postal:</b> 4900-348 - Viana do Castelo</p>
                     </div>
                     <div class="form-group">
                         <p><b>Telemóvel:</b> 999 444 111</p>
@@ -20,7 +20,7 @@
                         <p><b>E-mail:</b> arranjatudo@arranjatudo.pt</p>
                     </div>
                     <div class="form-group">
-                        <p><b>Horário:</b> Segunda a sábado: 07:00h até 20:00h</p>
+                        <p><b>Horário:</b> Segunda a sábado: das 07:00h até 20:00h</p>
                     </div>
                 </div>
                 <div class="col-md-6">
