@@ -1,7 +1,7 @@
 <section class="page-section bg-white" id="serviços">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Serviços</h2>
+                <h2 class="section-heading text-uppercase text-black">Serviços</h2>
                 <h3 class="section-subheading text-muted">Estes são os serviços disponibilizados pela nossa empresa</h3>
             </div>
             <div class="row text-center">
@@ -11,7 +11,7 @@
                         <i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="my-3">Arranjos de equipamentos elétricos</h4>
-                    <p class="text-muted">Os nossos técnicos têm acesso a equipamentos de diagnóstico e reparação de última geração, estabelecemos parcerias com empresas ligadas ao ramo da informática e eletrónica para assim fornecer os melhores serviços possíveis. </p>
+                    <p class="text-muted">Os nossos técnicos têm acesso a equipamentos de diagnóstico e reparação de última geração, devido às nossas parcerias com empresas ligadas ao ramo da informática e eletrónica para assim fornecer os melhores serviços possíveis. </p>
                 </div>
                 <div class="col-md-6">
                     <span class="fa-stack fa-4x">
