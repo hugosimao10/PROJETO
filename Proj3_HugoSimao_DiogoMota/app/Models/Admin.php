@@ -28,10 +28,18 @@ class Admin extends Model
      *
      * @var array
      */
+
+    protected $guarded = ['id'];
+
     protected $hidden = [
         'password',
         'remember_token',
     ];
+
+    public function getAuthPassword()
+    {
+     return $this->password;
+    }
 
     /**
      * The attributes that should be cast.

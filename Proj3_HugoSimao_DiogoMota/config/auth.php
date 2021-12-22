@@ -60,15 +60,16 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'admin' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Admin::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+        'admin' => [
+            'redirectTo' => 'admin.home',
+            'driver' => 'session',
+            'provider' => 'admin',
+           ],
     ],
 
     /*

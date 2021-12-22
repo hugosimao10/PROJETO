@@ -2,23 +2,29 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\Admin;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash as FacadesHash;
 use Illuminate\Support\Facades\Session as FacadesSession;
+use Illuminate\Support\Facades\Log;
+
 
 class AuthController extends Controller
 {
-    public function index() {
+    public function index()
+    {
         return view('loginRegister');
     }
 
     public function login(Request $request)
     {
+
+        Log::debug($request);
+
         $request->validate([
             'email' => 'required',
-            'password' => 'required',
+            'pass' => 'required',
         ]);
 
         $credentials = $request->only('email', 'password');
@@ -39,7 +45,6 @@ class AuthController extends Controller
         return redirect("login")->withSuccess('You are not allowed to access');
     }
 
-
     public function register(Request $request)
     {
         $request->validate([
@@ -54,23 +59,18 @@ class AuthController extends Controller
         return redirect("dashboard")->withSuccess('You have signed-in');
     }
 
-
     public function create(array $data)
     {
         return Admin::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => FacadesHash::make($data['password'])
+            'password' => Hash::make($data['password']),
         ]);
     }
 
-
-
-
-
     public function signOut()
     {
-        FacadesSession::flush();
+        Session::flush();
         Auth::logout();
 
         return Redirect('login');

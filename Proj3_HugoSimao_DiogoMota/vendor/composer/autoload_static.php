@@ -139,7 +139,6 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
             'GuzzleHttp\\' => 11,
             'GrahamCampbell\\ResultType\\' => 26,
             'GoNoWare\\Maps\\' => 14,
-            'GeneaLabs\\LaravelMaps\\' => 22,
         ),
         'F' => 
         array (
@@ -432,10 +431,6 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         array (
             0 => __DIR__ . '/..' . '/gonoware/laravel-maps/src',
         ),
-        'GeneaLabs\\LaravelMaps\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/genealabs/laravel-maps/src',
-        ),
         'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/laravel-cors/src',
@@ -523,6 +518,7 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/AuthController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\InitialPageController' => __DIR__ . '/../..' . '/app/Http/Controllers/InitialPageController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -534,7 +530,7 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
-        'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
+        'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -1319,7 +1315,6 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         'Faker\\Provider\\nl_BE\\Payment' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Payment.php',
         'Faker\\Provider\\nl_BE\\Person' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Person.php',
         'Faker\\Provider\\nl_BE\\PhoneNumber' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/PhoneNumber.php',
-        'Faker\\Provider\\nl_BE\\Text' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php',
         'Faker\\Provider\\nl_NL\\Address' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Address.php',
         'Faker\\Provider\\nl_NL\\Color' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Color.php',
         'Faker\\Provider\\nl_NL\\Company' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/Provider/nl_NL/Company.php',
@@ -1443,9 +1438,6 @@ class ComposerStaticInit2036cd830bb34b5dc5ba56c7e625b2cf
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fakerphp/faker/src/Faker/ValidGenerator.php',
         'Fruitcake\\Cors\\CorsServiceProvider' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/CorsServiceProvider.php',
         'Fruitcake\\Cors\\HandleCors' => __DIR__ . '/..' . '/fruitcake/laravel-cors/src/HandleCors.php',
-        'GeneaLabs\\LaravelMaps\\Facades\\Map' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Facades/Map.php',
-        'GeneaLabs\\LaravelMaps\\Map' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Map.php',
-        'GeneaLabs\\LaravelMaps\\Providers\\Service' => __DIR__ . '/..' . '/genealabs/laravel-maps/src/Providers/Service.php',
         'GoNoWare\\Maps\\MapsServiceProvider' => __DIR__ . '/..' . '/gonoware/laravel-maps/src/MapsServiceProvider.php',
         'GrahamCampbell\\ResultType\\Error' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Error.php',
         'GrahamCampbell\\ResultType\\Result' => __DIR__ . '/..' . '/graham-campbell/result-type/src/Result.php',
