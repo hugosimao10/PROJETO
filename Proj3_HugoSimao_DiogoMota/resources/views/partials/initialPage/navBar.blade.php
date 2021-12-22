@@ -12,7 +12,7 @@
                     <li class="nav-item"><a class="nav-link" href="#serviços">Serviços</a></li>
                     <li class="nav-item"><a class="nav-link" href="#quem_somos">Quem somos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contactos</a></li>
-                    <li class="nav-item"><a class="nav-link" id="botaoEntrar" href="{{url('login')}}">Entrar</a></li>
+                    <li class="nav-item"><a class="nav-link" id="botaoEntrar" href="{{route('loginArea')}}">Entrar</a></li>
                 </ul>
             </div>
         </div>

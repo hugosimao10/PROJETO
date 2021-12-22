@@ -17,5 +17,5 @@ use App\Http\Controllers\AuthController;
 
 Route::get('/', [InitialPageController::class, 'initalPageView']);
 Route::get('/loginArea', [AuthController::class, 'index'])->name('loginArea');
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/signout', [AuthController::class, 'signOut'])->name('signout');

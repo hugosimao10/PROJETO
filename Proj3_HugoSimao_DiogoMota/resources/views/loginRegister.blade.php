@@ -8,7 +8,7 @@
             <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Registar</label>
             <div class="login-form">
                 <div class="sign-in-htm">
-                    <form method="POST" action="{{ route('loginArea') }}">
+                    <form method="POST" action="{{ route('login') }}">
                     @csrf 
                         <div class="group">
                             <label class="label">E-mail</label>
