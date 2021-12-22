@@ -1,7 +1,7 @@
 @include('partials/head')
 <body id="page-top">
-
-    <!-- Footer-->
+    <?php echo 'esta no cliente'?>
+    <!-- Footer-->  
     @include('partials/footer')
 </body>
 

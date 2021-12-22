@@ -4,7 +4,6 @@
             <h2 class="section-heading text-uppercase">Contactos</h2>
             <h3 class="section-subheading text-muted text-black">Aqui pode encontrar informações sobre como nos contactar</h3>
         </div>
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
             <div class="row align-items-stretch mb-5">
                 <div class="col-md-6 backgContact">
                     <div class="form-group">
@@ -42,6 +41,5 @@
                     </div>
                 </div>
             </div>
-        </form>
     </div>
 </section>

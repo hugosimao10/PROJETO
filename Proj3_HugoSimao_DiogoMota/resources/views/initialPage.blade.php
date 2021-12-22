@@ -4,8 +4,6 @@
     @include('partials/initialPage/navBar')
     <!-- Header-->
     @include('partials/initialPage/header')
-    <!-- Login \ Sign Up-->
-    @include('partials/initialPage/loginSignUp')
     <!-- Services-->
     @include('partials/initialPage/services')
     <!-- Who are we-->
