@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash as FacadesHash;
-use Illuminate\Support\Facades\Session as FacadesSession;
+use Illuminate\Support\Facades\Hash as Hash;
+use Illuminate\Support\Facades\Session as Session;
 use Illuminate\Support\Facades\Log;
 
 
@@ -73,6 +73,6 @@ class AuthController extends Controller
         Session::flush();
         Auth::logout();
 
-        return Redirect('login');
+        return Redirect('loginArea');
     }
 }
